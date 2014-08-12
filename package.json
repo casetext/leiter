@@ -2,7 +2,7 @@
   "name": "leiter",
   "version": "0.1.0",
   "description": "Run Node scripts with command and control.",
-  "main": "index.js",
+  "bin": "./index.js",
   "scripts": {
     "test": "mocha -r test/setup test/spec"
   },
